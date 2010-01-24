@@ -1,0 +1,11 @@
+# Shiny Droplets 
+
+Shiny Droplets are small AppleScript-based applications that integrate with the Finder toolbar to provide fast shortcuts to text editors.  
+Shiny Droplets are released under BSD license.
+
+Home page: [Shiny Droplets](http://blog.shinyfrog.net/2008/06/07/finder-droplets-mac-editors/ "Shiny Droplets homepage.")
+
+Shiny Droplets are developed by [Shiny Frog](http://www.shinyfrog.net "Shiny Frog homepage.")
+
+
+

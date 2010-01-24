@@ -1,0 +1,1404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C6BC1CF1085CAC300A3914D /* Build All Droplets */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C6BC1E21085CADE00A3914D /* Build configuration list for PBXAggregateTarget "Build All Droplets" */;
+			buildPhases = (
+				0C6BC1E51085CD0A00A3914D /* ShellScript */,
+			);
+			dependencies = (
+				0C6BC1D31085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1D51085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1D71085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1D91085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1DB1085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1DD1085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1DF1085CACA00A3914D /* PBXTargetDependency */,
+				0C6BC1E11085CACA00A3914D /* PBXTargetDependency */,
+			);
+			name = "Build All Droplets";
+			productName = "Build All Droplets";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C0428320E153C8B00C34ACC /* TextMateDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04282E0E153C8B00C34ACC /* TextMateDropController.m */; };
+		0C0428330E153C8B00C34ACC /* textmateFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C04282F0E153C8B00C34ACC /* textmateFinderIcon.icns */; };
+		0C0428390E153C9B00C34ACC /* xcodeFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C0428350E153C9B00C34ACC /* xcodeFinderIcon.icns */; };
+		0C04283A0E153C9B00C34ACC /* XcodeDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0428360E153C9B00C34ACC /* XcodeDropController.m */; };
+		0C0428400E153CA800C34ACC /* codaFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C04283C0E153CA800C34ACC /* codaFinderIcon.icns */; };
+		0C0428410E153CA800C34ACC /* CodaDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04283D0E153CA800C34ACC /* CodaDropController.m */; };
+		0C0428470E153D1600C34ACC /* vimFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C0428430E153D1600C34ACC /* vimFinderIcon.icns */; };
+		0C0428480E153D1600C34ACC /* MacVimDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0428450E153D1600C34ACC /* MacVimDropController.m */; };
+		0C78DA060E1A3CAF00CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA3B0E1A40E300CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA3C0E1A40E700CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA3D0E1A40EC00CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA3E0E1A40F000CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA3F0E1A40F800CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C78DA400E1A40FD00CF4444 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C8149930FF0E02000F35263 /* espressoFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C8149920FF0E02000F35263 /* espressoFinderIcon.icns */; };
+		0C81499B0FF0E13500F35263 /* EspressoDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C81499A0FF0E13500F35263 /* EspressoDrop.xib */; };
+		0C81499E0FF0E17000F35263 /* EspressoDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C81499D0FF0E17000F35263 /* EspressoDropController.m */; };
+		0C8149AD0FF0E24D00F35263 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
+		0C8149AE0FF0E2AD00F35263 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0C8149AF0FF0E2AD00F35263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0C8149B00FF0E2B300F35263 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0C8917830E18CD31005C3555 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0C8917860E18CD35005C3555 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0C8917870E18CD3D005C3555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CA5404D110C6BC90074B2F4 /* SmultronDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5404C110C6BC90074B2F4 /* SmultronDrop.xib */; };
+		0CA54056110C6C540074B2F4 /* MacVimDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54055110C6C540074B2F4 /* MacVimDrop.xib */; };
+		0CA54074110C6E0E0074B2F4 /* BBEditDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54073110C6E0E0074B2F4 /* BBEditDrop.xib */; };
+		0CA54076110C6E300074B2F4 /* AquamacsDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54075110C6E300074B2F4 /* AquamacsDrop.xib */; };
+		0CA54078110C6E460074B2F4 /* TextMateDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54077110C6E460074B2F4 /* TextMateDrop.xib */; };
+		0CA5407A110C6E5E0074B2F4 /* XcodeDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54079110C6E5E0074B2F4 /* XcodeDrop.xib */; };
+		0CA5407C110C6E6E0074B2F4 /* CodaDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5407B110C6E6E0074B2F4 /* CodaDrop.xib */; };
+		0CA6D8110E14DD9B00A1D910 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0CA6D8150E14DDC800A1D910 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CA6D8890E14E47200A1D910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CA6D8C80E14E87900A1D910 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0CA6D8C90E14E87D00A1D910 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CA6D8CA0E14E88100A1D910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CA6D9020E14F6C900A1D910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CA6D9030E14F6CD00A1D910 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0CA6D9040E14F6D300A1D910 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CA6D9240E15054600A1D910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CA6D9250E15054B00A1D910 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CA6D9260E15055000A1D910 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0CB51D540E18D3FD0007D46A /* BBEditDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB51D530E18D3FD0007D46A /* BBEditDropController.m */; };
+		0CB51D630E18D54C0007D46A /* emacsFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0CB51D5F0E18D54C0007D46A /* emacsFinderIcon.icns */; };
+		0CB51D640E18D54C0007D46A /* AquamacsDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB51D610E18D54C0007D46A /* AquamacsDropController.m */; };
+		0CB51D6A0E18D5E90007D46A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0CB51D710E18D5FC0007D46A /* bbeditFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0CB51D700E18D5FC0007D46A /* bbeditFinderIcon.icns */; };
+		0CB51D720E18D6060007D46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CB51D730E18D6080007D46A /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CB51D890E18D8F90007D46A /* SmultronDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB51D880E18D8F90007D46A /* SmultronDropController.m */; };
+		0CB51D900E18D9A60007D46A /* smultronFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0CB51D8F0E18D9A60007D46A /* smultronFinderIcon.icns */; };
+		0CB51D940E18D9D10007D46A /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		0CB51D950E18D9D10007D46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0CB51D960E18D9D40007D46A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C6BC1D21085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA6D8080E14DD4800A1D910;
+			remoteInfo = MacVimDrop;
+		};
+		0C6BC1D41085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA6D8B90E14E80000A1D910;
+			remoteInfo = CodaDrop;
+		};
+		0C6BC1D61085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA6D8EB0E14F61900A1D910;
+			remoteInfo = XcodeDrop;
+		};
+		0C6BC1D81085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA6D90D0E1500FD00A1D910;
+			remoteInfo = TextMateDrop;
+		};
+		0C6BC1DA1085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C89176C0E18CBD4005C3555;
+			remoteInfo = AquamacsDrop;
+		};
+		0C6BC1DC1085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB51D430E18D3650007D46A;
+			remoteInfo = BBEditDrop;
+		};
+		0C6BC1DE1085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB51D7F0E18D7F60007D46A;
+			remoteInfo = SmultronDrop;
+		};
+		0C6BC1E01085CACA00A3914D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C81498A0FF0E00C00F35263;
+			remoteInfo = EspressoDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C04282E0E153C8B00C34ACC /* TextMateDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextMateDropController.m; path = textMateDrop/TextMateDropController.m; sourceTree = "<group>"; };
+		0C04282F0E153C8B00C34ACC /* textmateFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = textmateFinderIcon.icns; path = textMateDrop/textmateFinderIcon.icns; sourceTree = "<group>"; };
+		0C0428300E153C8B00C34ACC /* TextMateDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextMateDropController.h; path = textMateDrop/TextMateDropController.h; sourceTree = "<group>"; };
+		0C0428350E153C9B00C34ACC /* xcodeFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = xcodeFinderIcon.icns; path = xcodeDrop/xcodeFinderIcon.icns; sourceTree = "<group>"; };
+		0C0428360E153C9B00C34ACC /* XcodeDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XcodeDropController.m; path = xcodeDrop/XcodeDropController.m; sourceTree = "<group>"; };
+		0C0428370E153C9B00C34ACC /* XcodeDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XcodeDropController.h; path = xcodeDrop/XcodeDropController.h; sourceTree = "<group>"; };
+		0C04283C0E153CA800C34ACC /* codaFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = codaFinderIcon.icns; path = codaDrop/codaFinderIcon.icns; sourceTree = "<group>"; };
+		0C04283D0E153CA800C34ACC /* CodaDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodaDropController.m; path = codaDrop/CodaDropController.m; sourceTree = "<group>"; };
+		0C04283F0E153CA800C34ACC /* CodaDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodaDropController.h; path = codaDrop/CodaDropController.h; sourceTree = "<group>"; };
+		0C0428430E153D1600C34ACC /* vimFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = vimFinderIcon.icns; path = macVimDrop/vimFinderIcon.icns; sourceTree = "<group>"; };
+		0C0428440E153D1600C34ACC /* MacVimDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacVimDropController.h; path = macVimDrop/MacVimDropController.h; sourceTree = "<group>"; };
+		0C0428450E153D1600C34ACC /* MacVimDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacVimDropController.m; path = macVimDrop/MacVimDropController.m; sourceTree = "<group>"; };
+		0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = scriptClick.scpt; sourceTree = "<group>"; };
+		0C81498B0FF0E00C00F35263 /* EspressoDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EspressoDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C81498D0FF0E00C00F35263 /* EspressoDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EspressoDrop-Info.plist"; path = "../EspressoDrop-Info.plist"; sourceTree = "<group>"; };
+		0C8149920FF0E02000F35263 /* espressoFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = espressoFinderIcon.icns; sourceTree = "<group>"; };
+		0C81499A0FF0E13500F35263 /* EspressoDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EspressoDrop.xib; sourceTree = "<group>"; };
+		0C81499C0FF0E17000F35263 /* EspressoDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoDropController.h; sourceTree = "<group>"; };
+		0C81499D0FF0E17000F35263 /* EspressoDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoDropController.m; sourceTree = "<group>"; };
+		0C89176D0E18CBD4005C3555 /* AquamacsDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquamacsDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA5404C110C6BC90074B2F4 /* SmultronDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SmultronDrop.xib; path = smultronDrop/SmultronDrop.xib; sourceTree = "<group>"; };
+		0CA54055110C6C540074B2F4 /* MacVimDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MacVimDrop.xib; path = macVimDrop/MacVimDrop.xib; sourceTree = "<group>"; };
+		0CA54073110C6E0E0074B2F4 /* BBEditDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBEditDrop.xib; path = bbeditDrop/BBEditDrop.xib; sourceTree = "<group>"; };
+		0CA54075110C6E300074B2F4 /* AquamacsDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AquamacsDrop.xib; path = aquaemacsDrop/AquamacsDrop.xib; sourceTree = "<group>"; };
+		0CA54077110C6E460074B2F4 /* TextMateDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TextMateDrop.xib; path = textMateDrop/TextMateDrop.xib; sourceTree = "<group>"; };
+		0CA54079110C6E5E0074B2F4 /* XcodeDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = XcodeDrop.xib; path = xcodeDrop/XcodeDrop.xib; sourceTree = "<group>"; };
+		0CA5407B110C6E6E0074B2F4 /* CodaDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CodaDrop.xib; path = codaDrop/CodaDrop.xib; sourceTree = "<group>"; };
+		0CA6D8090E14DD4800A1D910 /* MacVimDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacVimDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6D80B0E14DD4800A1D910 /* MacVimDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacVimDrop-Info.plist"; sourceTree = "<group>"; };
+		0CA6D8130E14DDC800A1D910 /* baseDroplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseDroplet.h; sourceTree = "<group>"; };
+		0CA6D8140E14DDC800A1D910 /* baseDroplet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseDroplet.m; sourceTree = "<group>"; };
+		0CA6D8BA0E14E80000A1D910 /* CodaDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6D8BC0E14E80000A1D910 /* CodaDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodaDrop-Info.plist"; sourceTree = "<group>"; };
+		0CA6D8EC0E14F61900A1D910 /* XcodeDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6D8EE0E14F61900A1D910 /* XcodeDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeDrop-Info.plist"; sourceTree = "<group>"; };
+		0CA6D90E0E1500FD00A1D910 /* TextMateDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextMateDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6D9100E1500FD00A1D910 /* TextMateDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextMateDrop-Info.plist"; sourceTree = "<group>"; };
+		0CB51D440E18D3650007D46A /* bbeditDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bbeditDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB51D460E18D3650007D46A /* bbeditDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bbeditDrop-Info.plist"; sourceTree = "<group>"; };
+		0CB51D520E18D3FD0007D46A /* BBEditDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBEditDropController.h; path = bbeditDrop/BBEditDropController.h; sourceTree = "<group>"; };
+		0CB51D530E18D3FD0007D46A /* BBEditDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBEditDropController.m; path = bbeditDrop/BBEditDropController.m; sourceTree = "<group>"; };
+		0CB51D5D0E18D5070007D46A /* AquamacsDrop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AquamacsDrop-Info.plist"; sourceTree = "<group>"; };
+		0CB51D5F0E18D54C0007D46A /* emacsFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = emacsFinderIcon.icns; path = aquaemacsDrop/emacsFinderIcon.icns; sourceTree = "<group>"; };
+		0CB51D600E18D54C0007D46A /* AquamacsDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AquamacsDropController.h; path = aquaemacsDrop/AquamacsDropController.h; sourceTree = "<group>"; };
+		0CB51D610E18D54C0007D46A /* AquamacsDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AquamacsDropController.m; path = aquaemacsDrop/AquamacsDropController.m; sourceTree = "<group>"; };
+		0CB51D700E18D5FC0007D46A /* bbeditFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = bbeditFinderIcon.icns; path = bbeditDrop/bbeditFinderIcon.icns; sourceTree = "<group>"; };
+		0CB51D800E18D7F60007D46A /* SmultronDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmultronDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB51D820E18D7F60007D46A /* SmultronDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmultronDrop-Info.plist"; sourceTree = "<group>"; };
+		0CB51D870E18D8F90007D46A /* SmultronDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmultronDropController.h; path = smultronDrop/SmultronDropController.h; sourceTree = "<group>"; };
+		0CB51D880E18D8F90007D46A /* SmultronDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmultronDropController.m; path = smultronDrop/SmultronDropController.m; sourceTree = "<group>"; };
+		0CB51D8F0E18D9A60007D46A /* smultronFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = smultronFinderIcon.icns; path = smultronDrop/smultronFinderIcon.icns; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* ShinyDroplets_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinyDroplets_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C8149890FF0E00C00F35263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8149B00FF0E2B300F35263 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C89176B0E18CBD4005C3555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8917830E18CD31005C3555 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8070E14DD4800A1D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D8110E14DD9B00A1D910 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8B80E14E80000A1D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D8C80E14E87900A1D910 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8EA0E14F61900A1D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D9030E14F6CD00A1D910 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D90C0E1500FD00A1D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D9260E15055000A1D910 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D420E18D3650007D46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB51D6A0E18D5E90007D46A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D7E0E18D7F60007D46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB51D960E18D9D40007D46A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CA6D8130E14DDC800A1D910 /* baseDroplet.h */,
+				0CA6D8140E14DDC800A1D910 /* baseDroplet.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0C78D9C60E1A358100CF4444 /* Applescript */ = {
+			isa = PBXGroup;
+			children = (
+				0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */,
+			);
+			name = Applescript;
+			sourceTree = "<group>";
+		};
+		0C8149910FF0E02000F35263 /* espressoDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0C81499C0FF0E17000F35263 /* EspressoDropController.h */,
+				0C81499D0FF0E17000F35263 /* EspressoDropController.m */,
+				0C81498D0FF0E00C00F35263 /* EspressoDrop-Info.plist */,
+				0C8149920FF0E02000F35263 /* espressoFinderIcon.icns */,
+				0C81499A0FF0E13500F35263 /* EspressoDrop.xib */,
+			);
+			path = espressoDrop;
+			sourceTree = "<group>";
+		};
+		0C8917680E18CB6D005C3555 /* AquamacsDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA54075110C6E300074B2F4 /* AquamacsDrop.xib */,
+				0CB51D5F0E18D54C0007D46A /* emacsFinderIcon.icns */,
+				0CB51D600E18D54C0007D46A /* AquamacsDropController.h */,
+				0CB51D610E18D54C0007D46A /* AquamacsDropController.m */,
+				0CB51D5D0E18D5070007D46A /* AquamacsDrop-Info.plist */,
+			);
+			name = AquamacsDrop;
+			sourceTree = "<group>";
+		};
+		0CA5407E110C6E8F0074B2F4 /* Droplets */ = {
+			isa = PBXGroup;
+			children = (
+				0C8149910FF0E02000F35263 /* espressoDrop */,
+				0CB51D860E18D8BF0007D46A /* SmultronDrop */,
+				0CB51D510E18D3BD0007D46A /* BBEditDrop */,
+				0C8917680E18CB6D005C3555 /* AquamacsDrop */,
+				0CA6D9090E1500EC00A1D910 /* TextMateDrop */,
+				0CA6D8E70E14F60100A1D910 /* XcodeDrop */,
+				0CA6D8A30E14E79100A1D910 /* CodaDrop */,
+				0CA6D7FC0E14DD0D00A1D910 /* MacVimDrop */,
+			);
+			name = Droplets;
+			sourceTree = "<group>";
+		};
+		0CA6D7FC0E14DD0D00A1D910 /* MacVimDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA54055110C6C540074B2F4 /* MacVimDrop.xib */,
+				0C0428430E153D1600C34ACC /* vimFinderIcon.icns */,
+				0C0428440E153D1600C34ACC /* MacVimDropController.h */,
+				0C0428450E153D1600C34ACC /* MacVimDropController.m */,
+				0CA6D80B0E14DD4800A1D910 /* MacVimDrop-Info.plist */,
+			);
+			name = MacVimDrop;
+			sourceTree = "<group>";
+		};
+		0CA6D8A30E14E79100A1D910 /* CodaDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA5407B110C6E6E0074B2F4 /* CodaDrop.xib */,
+				0C04283C0E153CA800C34ACC /* codaFinderIcon.icns */,
+				0C04283D0E153CA800C34ACC /* CodaDropController.m */,
+				0C04283F0E153CA800C34ACC /* CodaDropController.h */,
+				0CA6D8BC0E14E80000A1D910 /* CodaDrop-Info.plist */,
+			);
+			name = CodaDrop;
+			sourceTree = "<group>";
+		};
+		0CA6D8E70E14F60100A1D910 /* XcodeDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA54079110C6E5E0074B2F4 /* XcodeDrop.xib */,
+				0C0428350E153C9B00C34ACC /* xcodeFinderIcon.icns */,
+				0C0428360E153C9B00C34ACC /* XcodeDropController.m */,
+				0C0428370E153C9B00C34ACC /* XcodeDropController.h */,
+				0CA6D8EE0E14F61900A1D910 /* XcodeDrop-Info.plist */,
+			);
+			name = XcodeDrop;
+			sourceTree = "<group>";
+		};
+		0CA6D9090E1500EC00A1D910 /* TextMateDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA54077110C6E460074B2F4 /* TextMateDrop.xib */,
+				0C04282E0E153C8B00C34ACC /* TextMateDropController.m */,
+				0C04282F0E153C8B00C34ACC /* textmateFinderIcon.icns */,
+				0C0428300E153C8B00C34ACC /* TextMateDropController.h */,
+				0CA6D9100E1500FD00A1D910 /* TextMateDrop-Info.plist */,
+			);
+			name = TextMateDrop;
+			sourceTree = "<group>";
+		};
+		0CB51D510E18D3BD0007D46A /* BBEditDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA54073110C6E0E0074B2F4 /* BBEditDrop.xib */,
+				0CB51D700E18D5FC0007D46A /* bbeditFinderIcon.icns */,
+				0CB51D460E18D3650007D46A /* bbeditDrop-Info.plist */,
+				0CB51D520E18D3FD0007D46A /* BBEditDropController.h */,
+				0CB51D530E18D3FD0007D46A /* BBEditDropController.m */,
+			);
+			name = BBEditDrop;
+			sourceTree = "<group>";
+		};
+		0CB51D860E18D8BF0007D46A /* SmultronDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0CA5404C110C6BC90074B2F4 /* SmultronDrop.xib */,
+				0CB51D8F0E18D9A60007D46A /* smultronFinderIcon.icns */,
+				0CB51D820E18D7F60007D46A /* SmultronDrop-Info.plist */,
+				0CB51D870E18D8F90007D46A /* SmultronDropController.h */,
+				0CB51D880E18D8F90007D46A /* SmultronDropController.m */,
+			);
+			name = SmultronDrop;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA6D8090E14DD4800A1D910 /* MacVimDrop.app */,
+				0CA6D8BA0E14E80000A1D910 /* CodaDrop.app */,
+				0CA6D8EC0E14F61900A1D910 /* XcodeDrop.app */,
+				0CA6D90E0E1500FD00A1D910 /* TextMateDrop.app */,
+				0C89176D0E18CBD4005C3555 /* AquamacsDrop.app */,
+				0CB51D440E18D3650007D46A /* bbeditDrop.app */,
+				0CB51D800E18D7F60007D46A /* SmultronDrop.app */,
+				0C81498B0FF0E00C00F35263 /* EspressoDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ShinyDroplets */ = {
+			isa = PBXGroup;
+			children = (
+				0CA5407E110C6E8F0074B2F4 /* Droplets */,
+				0C78D9C60E1A358100CF4444 /* Applescript */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ShinyDroplets;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ShinyDroplets_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C81498A0FF0E00C00F35263 /* EspressoDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8149900FF0E00D00F35263 /* Build configuration list for PBXNativeTarget "EspressoDrop" */;
+			buildPhases = (
+				0C8149870FF0E00C00F35263 /* Resources */,
+				0C8149880FF0E00C00F35263 /* Sources */,
+				0C8149890FF0E00C00F35263 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EspressoDrop;
+			productName = EspressoDrop;
+			productReference = 0C81498B0FF0E00C00F35263 /* EspressoDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C89176C0E18CBD4005C3555 /* AquamacsDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8917720E18CBD4005C3555 /* Build configuration list for PBXNativeTarget "AquamacsDrop" */;
+			buildPhases = (
+				0C8917690E18CBD4005C3555 /* Resources */,
+				0C89176A0E18CBD4005C3555 /* Sources */,
+				0C89176B0E18CBD4005C3555 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquamacsDrop;
+			productName = AquamacsDrop;
+			productReference = 0C89176D0E18CBD4005C3555 /* AquamacsDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA6D8080E14DD4800A1D910 /* MacVimDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA6D80E0E14DD4800A1D910 /* Build configuration list for PBXNativeTarget "MacVimDrop" */;
+			buildPhases = (
+				0CA6D8050E14DD4800A1D910 /* Resources */,
+				0CA6D8060E14DD4800A1D910 /* Sources */,
+				0CA6D8070E14DD4800A1D910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacVimDrop;
+			productName = MacVimDrop;
+			productReference = 0CA6D8090E14DD4800A1D910 /* MacVimDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA6D8B90E14E80000A1D910 /* CodaDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA6D8BF0E14E80100A1D910 /* Build configuration list for PBXNativeTarget "CodaDrop" */;
+			buildPhases = (
+				0CA6D8B60E14E80000A1D910 /* Resources */,
+				0CA6D8B70E14E80000A1D910 /* Sources */,
+				0CA6D8B80E14E80000A1D910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodaDrop;
+			productName = CodaDrop;
+			productReference = 0CA6D8BA0E14E80000A1D910 /* CodaDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA6D8EB0E14F61900A1D910 /* XcodeDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA6D8F10E14F61900A1D910 /* Build configuration list for PBXNativeTarget "XcodeDrop" */;
+			buildPhases = (
+				0CA6D8E80E14F61900A1D910 /* Resources */,
+				0CA6D8E90E14F61900A1D910 /* Sources */,
+				0CA6D8EA0E14F61900A1D910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeDrop;
+			productName = XcodeDrop;
+			productReference = 0CA6D8EC0E14F61900A1D910 /* XcodeDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA6D90D0E1500FD00A1D910 /* TextMateDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA6D9130E1500FE00A1D910 /* Build configuration list for PBXNativeTarget "TextMateDrop" */;
+			buildPhases = (
+				0CA6D90A0E1500FD00A1D910 /* Resources */,
+				0CA6D90B0E1500FD00A1D910 /* Sources */,
+				0CA6D90C0E1500FD00A1D910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextMateDrop;
+			productName = TextMateDrop;
+			productReference = 0CA6D90E0E1500FD00A1D910 /* TextMateDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CB51D430E18D3650007D46A /* BBEditDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB51D490E18D3650007D46A /* Build configuration list for PBXNativeTarget "BBEditDrop" */;
+			buildPhases = (
+				0CB51D400E18D3650007D46A /* Resources */,
+				0CB51D410E18D3650007D46A /* Sources */,
+				0CB51D420E18D3650007D46A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBEditDrop;
+			productName = bbeditDrop;
+			productReference = 0CB51D440E18D3650007D46A /* bbeditDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CB51D7F0E18D7F60007D46A /* SmultronDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB51D850E18D7F70007D46A /* Build configuration list for PBXNativeTarget "SmultronDrop" */;
+			buildPhases = (
+				0CB51D7C0E18D7F60007D46A /* Resources */,
+				0CB51D7D0E18D7F60007D46A /* Sources */,
+				0CB51D7E0E18D7F60007D46A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmultronDrop;
+			productName = SmultronDrop;
+			productReference = 0CB51D800E18D7F60007D46A /* SmultronDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShinyDroplets" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ShinyDroplets */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C6BC1CF1085CAC300A3914D /* Build All Droplets */,
+				0CA6D8080E14DD4800A1D910 /* MacVimDrop */,
+				0CA6D8B90E14E80000A1D910 /* CodaDrop */,
+				0CA6D8EB0E14F61900A1D910 /* XcodeDrop */,
+				0CA6D90D0E1500FD00A1D910 /* TextMateDrop */,
+				0C89176C0E18CBD4005C3555 /* AquamacsDrop */,
+				0CB51D430E18D3650007D46A /* BBEditDrop */,
+				0CB51D7F0E18D7F60007D46A /* SmultronDrop */,
+				0C81498A0FF0E00C00F35263 /* EspressoDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8149870FF0E00C00F35263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8149AD0FF0E24D00F35263 /* scriptClick.scpt in Resources */,
+				0C8149930FF0E02000F35263 /* espressoFinderIcon.icns in Resources */,
+				0C81499B0FF0E13500F35263 /* EspressoDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8917690E18CBD4005C3555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA3E0E1A40F000CF4444 /* scriptClick.scpt in Resources */,
+				0CB51D630E18D54C0007D46A /* emacsFinderIcon.icns in Resources */,
+				0CA54076110C6E300074B2F4 /* AquamacsDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8050E14DD4800A1D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA060E1A3CAF00CF4444 /* scriptClick.scpt in Resources */,
+				0C0428470E153D1600C34ACC /* vimFinderIcon.icns in Resources */,
+				0CA54056110C6C540074B2F4 /* MacVimDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8B60E14E80000A1D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA3B0E1A40E300CF4444 /* scriptClick.scpt in Resources */,
+				0C0428400E153CA800C34ACC /* codaFinderIcon.icns in Resources */,
+				0CA5407C110C6E6E0074B2F4 /* CodaDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8E80E14F61900A1D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA3C0E1A40E700CF4444 /* scriptClick.scpt in Resources */,
+				0C0428390E153C9B00C34ACC /* xcodeFinderIcon.icns in Resources */,
+				0CA5407A110C6E5E0074B2F4 /* XcodeDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D90A0E1500FD00A1D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA3D0E1A40EC00CF4444 /* scriptClick.scpt in Resources */,
+				0C0428330E153C8B00C34ACC /* textmateFinderIcon.icns in Resources */,
+				0CA54078110C6E460074B2F4 /* TextMateDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D400E18D3650007D46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA3F0E1A40F800CF4444 /* scriptClick.scpt in Resources */,
+				0CB51D710E18D5FC0007D46A /* bbeditFinderIcon.icns in Resources */,
+				0CA54074110C6E0E0074B2F4 /* BBEditDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D7C0E18D7F60007D46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78DA400E1A40FD00CF4444 /* scriptClick.scpt in Resources */,
+				0CB51D900E18D9A60007D46A /* smultronFinderIcon.icns in Resources */,
+				0CA5404D110C6BC90074B2F4 /* SmultronDrop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6BC1E51085CD0A00A3914D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -o errexit\n\n[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f ShinyDroplets2.0.zip\n\nzip -qr ShinyDroplets2.0.zip *.app\necho \"Zip done\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8149880FF0E00C00F35263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8149AE0FF0E2AD00F35263 /* baseDroplet.m in Sources */,
+				0C8149AF0FF0E2AD00F35263 /* main.m in Sources */,
+				0C81499E0FF0E17000F35263 /* EspressoDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C89176A0E18CBD4005C3555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8917870E18CD3D005C3555 /* main.m in Sources */,
+				0C8917860E18CD35005C3555 /* baseDroplet.m in Sources */,
+				0CB51D640E18D54C0007D46A /* AquamacsDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8060E14DD4800A1D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D8890E14E47200A1D910 /* main.m in Sources */,
+				0CA6D8150E14DDC800A1D910 /* baseDroplet.m in Sources */,
+				0C0428480E153D1600C34ACC /* MacVimDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8B70E14E80000A1D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D8CA0E14E88100A1D910 /* main.m in Sources */,
+				0CA6D8C90E14E87D00A1D910 /* baseDroplet.m in Sources */,
+				0C0428410E153CA800C34ACC /* CodaDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D8E90E14F61900A1D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D9020E14F6C900A1D910 /* main.m in Sources */,
+				0CA6D9040E14F6D300A1D910 /* baseDroplet.m in Sources */,
+				0C04283A0E153C9B00C34ACC /* XcodeDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6D90B0E1500FD00A1D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6D9240E15054600A1D910 /* main.m in Sources */,
+				0CA6D9250E15054B00A1D910 /* baseDroplet.m in Sources */,
+				0C0428320E153C8B00C34ACC /* TextMateDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D410E18D3650007D46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB51D730E18D6080007D46A /* baseDroplet.m in Sources */,
+				0CB51D720E18D6060007D46A /* main.m in Sources */,
+				0CB51D540E18D3FD0007D46A /* BBEditDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB51D7D0E18D7F60007D46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB51D940E18D9D10007D46A /* baseDroplet.m in Sources */,
+				0CB51D950E18D9D10007D46A /* main.m in Sources */,
+				0CB51D890E18D8F90007D46A /* SmultronDropController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C6BC1D31085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA6D8080E14DD4800A1D910 /* MacVimDrop */;
+			targetProxy = 0C6BC1D21085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1D51085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA6D8B90E14E80000A1D910 /* CodaDrop */;
+			targetProxy = 0C6BC1D41085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1D71085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA6D8EB0E14F61900A1D910 /* XcodeDrop */;
+			targetProxy = 0C6BC1D61085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1D91085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA6D90D0E1500FD00A1D910 /* TextMateDrop */;
+			targetProxy = 0C6BC1D81085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1DB1085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C89176C0E18CBD4005C3555 /* AquamacsDrop */;
+			targetProxy = 0C6BC1DA1085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1DD1085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB51D430E18D3650007D46A /* BBEditDrop */;
+			targetProxy = 0C6BC1DC1085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1DF1085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB51D7F0E18D7F60007D46A /* SmultronDrop */;
+			targetProxy = 0C6BC1DE1085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+		0C6BC1E11085CACA00A3914D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C81498A0FF0E00C00F35263 /* EspressoDrop */;
+			targetProxy = 0C6BC1E01085CACA00A3914D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C6BC1D01085CAC300A3914D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All Droplets";
+			};
+			name = Debug;
+		};
+		0C6BC1D11085CAC300A3914D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build All Droplets";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0C81498E0FF0E00D00F35263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "EspressoDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = EspressoDrop;
+			};
+			name = Debug;
+		};
+		0C81498F0FF0E00D00F35263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "EspressoDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = EspressoDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0C8917700E18CBD4005C3555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "AquamacsDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AquamacsDrop;
+			};
+			name = Debug;
+		};
+		0C8917710E18CBD4005C3555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "AquamacsDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AquamacsDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CA6D80C0E14DD4800A1D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "MacVimDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MacVimDrop;
+				SDKROOT = macosx10.4;
+			};
+			name = Debug;
+		};
+		0CA6D80D0E14DD4800A1D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "MacVimDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MacVimDrop;
+				SDKROOT = macosx10.4;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CA6D8BD0E14E80100A1D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "CodaDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodaDrop;
+			};
+			name = Debug;
+		};
+		0CA6D8BE0E14E80100A1D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "CodaDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodaDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CA6D8EF0E14F61900A1D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "XcodeDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XcodeDrop;
+			};
+			name = Debug;
+		};
+		0CA6D8F00E14F61900A1D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "XcodeDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XcodeDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CA6D9110E1500FE00A1D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TextMateDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TextMateDrop;
+			};
+			name = Debug;
+		};
+		0CA6D9120E1500FE00A1D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TextMateDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TextMateDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CB51D470E18D3650007D46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "bbeditDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = bbeditDrop;
+			};
+			name = Debug;
+		};
+		0CB51D480E18D3650007D46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "bbeditDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = bbeditDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0CB51D830E18D7F70007D46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SmultronDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SmultronDrop;
+			};
+			name = Debug;
+		};
+		0CB51D840E18D7F70007D46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SmultronDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SmultronDrop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6BC1E21085CADE00A3914D /* Build configuration list for PBXAggregateTarget "Build All Droplets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6BC1D01085CAC300A3914D /* Debug */,
+				0C6BC1D11085CAC300A3914D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8149900FF0E00D00F35263 /* Build configuration list for PBXNativeTarget "EspressoDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C81498E0FF0E00D00F35263 /* Debug */,
+				0C81498F0FF0E00D00F35263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8917720E18CBD4005C3555 /* Build configuration list for PBXNativeTarget "AquamacsDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8917700E18CBD4005C3555 /* Debug */,
+				0C8917710E18CBD4005C3555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA6D80E0E14DD4800A1D910 /* Build configuration list for PBXNativeTarget "MacVimDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA6D80C0E14DD4800A1D910 /* Debug */,
+				0CA6D80D0E14DD4800A1D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA6D8BF0E14E80100A1D910 /* Build configuration list for PBXNativeTarget "CodaDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA6D8BD0E14E80100A1D910 /* Debug */,
+				0CA6D8BE0E14E80100A1D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA6D8F10E14F61900A1D910 /* Build configuration list for PBXNativeTarget "XcodeDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA6D8EF0E14F61900A1D910 /* Debug */,
+				0CA6D8F00E14F61900A1D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA6D9130E1500FE00A1D910 /* Build configuration list for PBXNativeTarget "TextMateDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA6D9110E1500FE00A1D910 /* Debug */,
+				0CA6D9120E1500FE00A1D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB51D490E18D3650007D46A /* Build configuration list for PBXNativeTarget "BBEditDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB51D470E18D3650007D46A /* Debug */,
+				0CB51D480E18D3650007D46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB51D850E18D7F70007D46A /* Build configuration list for PBXNativeTarget "SmultronDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB51D830E18D7F70007D46A /* Debug */,
+				0CB51D840E18D7F70007D46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShinyDroplets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
