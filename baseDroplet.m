@@ -30,7 +30,7 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification{
-    [self executeScript:scriptActivate];
+	[self executeScript:scriptActivate];
     [NSApp terminate:self];
 }
 
@@ -53,7 +53,7 @@
 
 - (void) setActivateScript{
     NSBundle *thisBundle = [NSBundle mainBundle];
-    scriptActivate = [[NSMutableString alloc]initWithContentsOfFile:[thisBundle pathForResource:@"scriptClick" ofType:@"scpt"] encoding:NSASCIIStringEncoding error:Nil];
+    scriptActivate = [[NSMutableString alloc]initWithContentsOfFile:[thisBundle pathForResource:@"scriptClick" ofType:@"txt"] encoding:NSASCIIStringEncoding error:Nil];
     [scriptActivate replaceOccurrencesOfString:@"APP" withString:[self appName] options:NSLiteralSearch range:NSMakeRange(0, [scriptActivate length])];
 }
 

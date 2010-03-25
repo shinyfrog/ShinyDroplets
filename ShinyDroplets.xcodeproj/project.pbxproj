@@ -54,6 +54,14 @@
 		0C8917830E18CD31005C3555 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		0C8917860E18CD35005C3555 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
 		0C8917870E18CD3D005C3555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0C8F83A4115B6A4E00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83A5115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83A6115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83A7115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83A8115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83A9115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83AA115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
+		0C8F83AB115B6A4F00800DDE /* scriptClick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F83A3115B6A4E00800DDE /* scriptClick.txt */; };
 		0CA5404D110C6BC90074B2F4 /* SmultronDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5404C110C6BC90074B2F4 /* SmultronDrop.xib */; };
 		0CA54056110C6C540074B2F4 /* MacVimDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54055110C6C540074B2F4 /* MacVimDrop.xib */; };
 		0CA54074110C6E0E0074B2F4 /* BBEditDrop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA54073110C6E0E0074B2F4 /* BBEditDrop.xib */; };
@@ -167,6 +175,7 @@
 		0C81499C0FF0E17000F35263 /* EspressoDropController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoDropController.h; sourceTree = "<group>"; };
 		0C81499D0FF0E17000F35263 /* EspressoDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoDropController.m; sourceTree = "<group>"; };
 		0C89176D0E18CBD4005C3555 /* AquamacsDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquamacsDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8F83A3115B6A4E00800DDE /* scriptClick.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scriptClick.txt; sourceTree = "<group>"; };
 		0CA5404C110C6BC90074B2F4 /* SmultronDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SmultronDrop.xib; path = smultronDrop/SmultronDrop.xib; sourceTree = "<group>"; };
 		0CA54055110C6C540074B2F4 /* MacVimDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MacVimDrop.xib; path = macVimDrop/MacVimDrop.xib; sourceTree = "<group>"; };
 		0CA54073110C6E0E0074B2F4 /* BBEditDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBEditDrop.xib; path = bbeditDrop/BBEditDrop.xib; sourceTree = "<group>"; };
@@ -286,6 +295,7 @@
 		0C78D9C60E1A358100CF4444 /* Applescript */ = {
 			isa = PBXGroup;
 			children = (
+				0C8F83A3115B6A4E00800DDE /* scriptClick.txt */,
 				0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */,
 			);
 			name = Applescript;
@@ -638,6 +648,7 @@
 				0C8149AD0FF0E24D00F35263 /* scriptClick.scpt in Resources */,
 				0C8149930FF0E02000F35263 /* espressoFinderIcon.icns in Resources */,
 				0C81499B0FF0E13500F35263 /* EspressoDrop.xib in Resources */,
+				0C8F83AB115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +659,7 @@
 				0C78DA3E0E1A40F000CF4444 /* scriptClick.scpt in Resources */,
 				0CB51D630E18D54C0007D46A /* emacsFinderIcon.icns in Resources */,
 				0CA54076110C6E300074B2F4 /* AquamacsDrop.xib in Resources */,
+				0C8F83AA115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +670,7 @@
 				0C78DA060E1A3CAF00CF4444 /* scriptClick.scpt in Resources */,
 				0C0428470E153D1600C34ACC /* vimFinderIcon.icns in Resources */,
 				0CA54056110C6C540074B2F4 /* MacVimDrop.xib in Resources */,
+				0C8F83A5115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +681,7 @@
 				0C78DA3B0E1A40E300CF4444 /* scriptClick.scpt in Resources */,
 				0C0428400E153CA800C34ACC /* codaFinderIcon.icns in Resources */,
 				0CA5407C110C6E6E0074B2F4 /* CodaDrop.xib in Resources */,
+				0C8F83A4115B6A4E00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +692,7 @@
 				0C78DA3C0E1A40E700CF4444 /* scriptClick.scpt in Resources */,
 				0C0428390E153C9B00C34ACC /* xcodeFinderIcon.icns in Resources */,
 				0CA5407A110C6E5E0074B2F4 /* XcodeDrop.xib in Resources */,
+				0C8F83A6115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +703,7 @@
 				0C78DA3D0E1A40EC00CF4444 /* scriptClick.scpt in Resources */,
 				0C0428330E153C8B00C34ACC /* textmateFinderIcon.icns in Resources */,
 				0CA54078110C6E460074B2F4 /* TextMateDrop.xib in Resources */,
+				0C8F83A7115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +714,7 @@
 				0C78DA3F0E1A40F800CF4444 /* scriptClick.scpt in Resources */,
 				0CB51D710E18D5FC0007D46A /* bbeditFinderIcon.icns in Resources */,
 				0CA54074110C6E0E0074B2F4 /* BBEditDrop.xib in Resources */,
+				0C8F83A9115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +725,7 @@
 				0C78DA400E1A40FD00CF4444 /* scriptClick.scpt in Resources */,
 				0CB51D900E18D9A60007D46A /* smultronFinderIcon.icns in Resources */,
 				0CA5404D110C6BC90074B2F4 /* SmultronDrop.xib in Resources */,
+				0C8F83A8115B6A4F00800DDE /* scriptClick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
